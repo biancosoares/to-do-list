@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 8;
+    border-style: groove;
+    border-color: #333;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    width: 300px;
+    font-family: fantasy;
+}
+
+.principal:hover{
+    border-color: rgb(20, 195, 4);
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-family: fantasy;
+}
+
+button:hover {
+    background-color: rgb(20, 195, 4);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    width: 300px;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    font-family: fantasy;
+}
+
+li span {
+    cursor: pointer;
+    color: #f00;
+    font-weight: bold;
+}
+
+li.done {
+    background-color: rgba(0, 85, 0);
+    color: white;
+}
+
+li.done span {
+    color: white;
+}
